@@ -7,11 +7,11 @@ https://chromium.googlesource.com/chromium/src/+/refs/heads/main/docs/mac_build_
 - [x] Install depot_tools
   - [x] `$ git clone https://chromium.googlesource.com/chromium/tools/depot_tools.git`
   - [x] `$ export PATH="$PATH:/path/to/depot_tools"`
-- [ ] Get the code
+- [x] Get the code
   - [x] `$ git config --global core.precomposeUnicode true`
   - [x] `$ mkdir chromium && cd chromium`
   - [ ] `$ fetch --no-history chromium`
-    - [x] `$ gclient sync` becase of #1
+    - [x] `$ gclient sync` https://github.com/yhor1e/try-chromium/issues/1
   - [x] `$ cd src`
 - [x] Setting up the build
   - `$ gn gen out/Default`
