@@ -15,7 +15,7 @@ https://chromium.googlesource.com/chromium/src/+/refs/heads/main/docs/mac_build_
   - [x] `$ cd src`
 - [x] Setting up the build
   - `$ gn gen out/Default`
-- [ ] Build Chromium
+- [x] Build Chromium
   - `$ autoninja -C out/Default chrome`
-- [ ] Run Chromium
+- [x] Run Chromium
   - `$ out/Default/Chromium.app/Contents/MacOS/Chromium`
