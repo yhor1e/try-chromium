@@ -29,7 +29,7 @@ https://chromium.googlesource.com/chromium/src/+/refs/heads/main/docs/mac_build_
   - [x] To use, add the following to your ~/.lldbinit
     ``` 
     # So that lldbinit.py takes precedence.
-    script sys.path[:0] = ['<.../path/to/chromium/src/tools/lldb>']
+    script sys.path[:0] = ['/Users/foo/bar/try-chromium/chromium/src/tools/lldb']
     script import lldbinit
     ```
   - [x] `$ lldb out/Default/Chromium.app/Contents/MacOS/Chromium`
