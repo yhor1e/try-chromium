@@ -33,3 +33,5 @@ https://chromium.googlesource.com/chromium/src/+/refs/heads/main/docs/mac_build_
     script import lldbinit
     ```
   - [x] `$ lldb out/Default/Chromium.app/Contents/MacOS/Chromium`
+
+- Debugging [DEBUG.md](./DEBUG.md)
